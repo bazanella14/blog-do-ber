@@ -1,0 +1,93 @@
+/* Configurações gerais */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d50000;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #a80000;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Menu */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #c00000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #700000;
+}
+
+/* Conteúdo */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    color: #333;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    color: #d00000;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Destaque */
+.destaque {
+    text-align: center;
+    background-color: #8f0000;
+    color: white;
+}
+
+.destaque h2 {
+    color: white;
+}
+
+.bola {
+    font-size: 60px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #750000;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 8px;
+}
